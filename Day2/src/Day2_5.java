@@ -24,9 +24,7 @@ public class Day2_5 {
             s[i].roll = sc.nextInt();
             sc.nextLine();
             s[i].name = sc.nextLine();
-
             s[i].cgpa = sc.nextDouble();
-            sc.nextLine();
         }
         System.out.println("\n--- Student Details ---");
         for (int i = 0; i < n; i++)
